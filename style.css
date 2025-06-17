@@ -1,0 +1,488 @@
+/*  NAV DIV */
+
+
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+body {
+    margin: 0;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+h1 {
+    font-size: 30px;
+}
+.text-logo {
+    line-height: 30px;
+    width: 150px;
+}
+.nav-div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+.nav-div a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.language-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.language-div h1 {
+    font-weight: lighter;
+}
+
+/*  FON DIV */
+
+.main-part {
+    background-image: url(https://times-school.uz/img/banner.jpg);
+    background-size: cover;
+    padding-left: 0;
+    padding-top: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.main-part-text {
+    color: white;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.btns {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.btns a {
+    text-decoration: none;
+}
+.btn {
+    width: 440px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: navy;
+}
+.social-part {
+    display: flex;
+    justify-content: right;
+    margin-top: 70px;
+}
+.social-part-btns {
+    border: 3px solid blue;
+    padding: 5px;
+    background-color: navy;
+    display: flex;
+    gap: 35px;
+    border-radius: 100px;
+    padding: 16px 34px;
+    
+}
+
+.social-circle {
+    width: 72px;
+    height: 72px;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: 0.4s;
+}
+
+.social-circle:hover {
+    border-radius: 20px;
+    background-color: rgb(42, 1, 250);
+    transition: 0.4s;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+.social-part p {
+    font-size: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+
+
+
+/*  SECOND PAGE  */
+
+
+.second-page {
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.second-page h1 {
+    text-align: center;
+    color: navy;
+    font-size: 40px;
+}
+
+.second-page-img img{
+    width: 780px;
+    height: 600px;
+    float: left;
+}
+
+.second-page-p p {
+    font-size: 25px;
+    padding-left: 800px;
+    margin-top: 60px;
+}
+
+.first-page-p p {
+    font-size: 25px;
+    padding-left: 800px;
+}
+
+.third-page-p p {
+    font-size: 25px;
+    padding-left: 800px;
+    margin-top: 70px;
+
+}
+
+/* THIRD PAGE */
+.third-page {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.third-page h1 {
+    font-size: 40px;
+    color: navy;
+    text-align: center;
+}
+
+
+
+.block-column {
+    width: 31%;
+}
+
+.parent-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.block-card {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid navy;
+    height: 30%;
+}
+
+.block-card h6 {
+    font-size: 20px;
+}
+ 
+.block-card p {
+    font-size: 20px;
+}
+
+.block-card-img {
+    width: 100px;
+    height: 100px;
+}
+
+/* FOURTH PAGE */
+
+.fourth-page {
+    background: #FAF5FF;
+    text-align: center;
+}
+
+.fourth-page h1 {
+    font-size: 40px;
+    color: navy;
+    text-align: center;
+}
+
+.banner-block {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-row {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.banner-row h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.banner-1 {
+    background-image: url(https://times-school.uz/img/s1.jpg);
+    background-size: cover;
+}
+
+.banner-4 {
+    background-image: url(https://times-school.uz/img/s4.jpg);
+    background-size: cover;
+}
+
+.banner-2 {
+    background-image: url(https://times-school.uz/img/s2.jpg);
+    background-size: cover;
+}
+
+.banner-3 {
+    background-image: url(https://times-school.uz/img/s3.jpg);
+    background-size: cover;
+}
+
+.banner-5 {
+    background-image: url(https://times-school.uz/img/s5.jpg);
+    background-size: cover;
+}
+
+.banner-6 {
+    background-image: url(https://times-school.uz/img/s6.jpg);
+    background-size: cover;
+}
+
+.banner-row div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.test-btn  a {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: navy;
+    padding: 20px 130px;
+    border-radius: 15px;
+}
+
+.text {
+    color: navy;
+    text-align: center;
+    font-size: 40px;
+}
+.second-text p {
+    font-size: 35px;
+}
+
+.second-text {
+    margin-left: 35px;
+    text-align: center;
+    width: 95%;
+    margin-right: 35px;
+}
+
+
+/* FIFTH PAGE */
+
+.fifth-page {
+    border: 2px solid navy;
+}
+
+.fifth-page img {
+    width: 300px;
+    padding: 50px;
+    padding-left: 90px;
+    padding-bottom: 0;
+    height: 500px;
+    float: left;
+}
+
+.name-div {
+    margin-left: 490px;
+    width: 20%;
+    height: 70%;
+    margin-top: 60px;
+}
+
+.name-div h1 {
+    font-size: 45px;
+}
+
+.fifth-button h2 {
+    color: white;
+}
+
+.fifth-button {
+    background-color: navy;
+    width: 61%;
+    height: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* SIXTH PAGE */
+
+.sixth-page {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.sixth-page h1 {
+    text-align: center;
+    color: navy;
+    font-size: 40px;
+}
+
+.student-result {
+    background: rgb(26, 26, 250);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    padding-top: 70px;
+    border-radius: 20px;
+}
+
+.student-result img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.left {
+    display: flex;
+}
+
+.left-text {
+    line-height: 0;
+}
+
+.left-text h2 {
+    color: white;
+    font-size: 40px;
+    width: 50%;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+
+.left-text p {
+    color: white;
+    font-size: 40px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.right {
+    padding-top: 20px;
+    font-size: 35px;
+    width: 30%;
+    color: white;
+}
+
+.right p {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    line-height: 35px;
+}
+
+
+
+/* SEVENTH PAGE */
+
+.seventh-text {
+    color: navy;
+    font-size: 40px;
+    text-align: center;
+}
+
+.seventh-page {
+    padding-left: 30px;
+    margin-right: 10px;
+    padding-top: 40px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seventh-location  h1 {
+    font-size: 40px;
+    color: navy;
+    padding-left: 80px;
+    line-height: 80px;
+}
+.seventh-location  p {
+    font-size: 25px;
+}
+.seventh-location  h2 {
+    font-size: 40px;
+}
+
+.seventh-location {
+    width: 50%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+/* FOOTER PAGE */
+
+.footer-page {
+    background-color: navy;
+}
+
+.footer {
+    color: white;
+}
